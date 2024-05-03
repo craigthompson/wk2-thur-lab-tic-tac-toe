@@ -34,3 +34,23 @@ table {
   text-align: center;
   font-size: 2em;
 }
+
+/* .square:hover {
+  background-color: lightgray;
+} */
+
+.square:active {
+  background-color: gray;
+}
+
+.winning-square {
+  background-color: limegreen;
+}
+
+#winner-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2em;
+}
